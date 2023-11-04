@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4452543f84.js" crossorigin="anonymous"></script>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <navbar class="nav">
+        <div class="logo-container">
+            <img class="logo" src="images/logo.png" alt="" srcset="">
+            <div class="hamburger">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+                <span class="line-3"></span>
+            </div>
+        </div>
+        <ul class="nav-list">
+            <div class="nav-list-container">
+                <li class="nav-item">Home</li>
+                <li class="nav-item">Inventory</li>
+                <li class="nav-item">News</li>
+                <li class="nav-item">Contact</li>
+            </div>
+            <div class="order-container">
+                <a class="order-btn" href="#">Shop Now</a>
+            </div>
+        </ul>
+    </navbar>
+    <section class="home">
+        <div class="home-info-container">
+            <h1 class="info"><span>Discover</span> Your Dream Car Today</h1>
+            <p class="sub-info">Explore an exceptional collection of cars, where quality meets affordability. Your dream ride awaits here.</p>
+            <button class="btn"><a class="explore-btn" href="#brands">Explore more</a></button>
+        </div>
+    </section>
+    <section id="brands">
+        <h2 class="brand-heading">Get All Luxurious Cars</h2>
+        <p class="brand-sub-heading">Book a virtual show, buy and the car will be delivered to your doorstep.</p>
+        <div class="brand-container">
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/bmw.png" alt="" srcset=""></div>
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/bugatti.png" alt="" srcset=""></div>
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/lamborghini.png" alt="" srcset=""></div>
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/porsche.png" alt="" srcset=""></div>
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/mercedes.png" alt="" srcset=""></div>
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/ferrari.jpg" alt="" srcset=""></div>       
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/nissan.png" alt="" srcset=""></div>       
+            <div class="brand-logo-box"><img class="brand-logo" src="images/logo/land-rover.png" alt="" srcset=""></div>       
+        </div>
+    </section>
+    <section class="cars">
+        <h2 class="cars-heading">Featured Cars</h2>
+        <div class="car-container">
+            <div class="car-box">
+                <img class="car-image" src="images/car1.jpg" alt="">
+                <h3 class="car-name">car name</h3>
+                <p class="car-info">Iconic design, powerful performance, and enduring appeal.</p>
+                <p class="price">Price: <span>90 lakh</span></p>
+                <button class="view-btn">View more</button>
+            </div>
+            <div class="car-box">
+                <img class="car-image" src="images/car2.jpg" alt="">
+                <h3 class="car-name">car name</h3>
+                <p class="car-info">Iconic design, powerful performance, and enduring appeal.</p>
+                <p class="price">Price: <span>90 lakh</span></p>
+                <button class="view-btn">View more</button>
+            </div>
+            <div class="car-box">
+                <img class="car-image" src="images/car3.jpg" alt="">
+                <h3 class="car-name">car name</h3>
+                <p class="car-info">Iconic design, powerful performance, and enduring appeal.</p>
+                <p class="price">Price: <span>90 lakh</span></p>
+                <button class="view-btn">View more</button>
+            </div>
+            <div class="car-box">
+                <img class="car-image" src="images/car4.jpg" alt="">
+                <h3 class="car-name">car name</h3>
+                <p class="car-info">Iconic design, powerful performance, and enduring appeal.</p>
+                <p class="price">Price: <span>90 lakh</span></p>
+                <button class="view-btn">View more</button>
+            </div>
+            <div class="car-box">
+                <img class="car-image" src="images/car5.png" alt="">
+                <h3 class="car-name">car name</h3>
+                <p class="car-info">Iconic design, powerful performance, and enduring appeal.</p>
+                <p class="price">Price: <span>90 lakh</span></p>
+                <button class="view-btn">View more</button>
+            </div>
+            <div class="car-box">
+                <img class="car-image" src="images/car6.jpg" alt="">
+                <h3 class="car-name">car name</h3>
+                <p class="car-info">Iconic design, powerful performance, and enduring appeal.</p>
+                <p class="price">Price: <span>90 lakh</span></p>
+                <button class="view-btn">View more</button>
+            </div>
+        </div>
+        <button class="load-more">Load more</button>
+    </section>
+    <div class="swiper mySwiper">
+        <h2 class="review-heading">Reviews</h2>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="customer-img" src="images/customer.png" alt="">
+                <h3 class="name">Joe Biden</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #000000;"></i>
+                </div>
+                <p class="review-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore illo voluptates non, facere culpa veniam.</p>
+            </div>
+            <div class="swiper-slide">
+                <img class="customer-img" src="images/customer.png" alt="">
+                <h3 class="name">Joe Biden</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #000000;"></i>
+                </div>
+                <p class="review-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore illo voluptates non, facere culpa veniam.</p>
+            </div>
+            <div class="swiper-slide">
+                <img class="customer-img" src="images/customer.png" alt="">
+                <h3 class="name">Joe Biden</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #000000;"></i>
+                </div>
+                <p class="review-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore illo voluptates non, facere culpa veniam.</p>
+            </div>
+            <div class="swiper-slide">
+                <img class="customer-img" src="images/customer.png" alt="">
+                <h3 class="name">Joe Biden</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #000000;"></i>
+                </div>
+                <p class="review-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore illo voluptates non, facere culpa veniam.</p>
+            </div>
+            <div class="swiper-slide">
+                <img class="customer-img" src="images/customer.png" alt="">
+                <h3 class="name">Joe Biden</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #000000;"></i>
+                </div>
+                <p class="review-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore illo voluptates non, facere culpa veniam.</p>
+            </div>
+            <div class="swiper-slide">
+                <img class="customer-img" src="images/customer.png" alt="">
+                <h3 class="name">Joe Biden</h3>
+                <div class="rating">
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star fa-lg" style="color: #000000;"></i>
+                    <i class="fa-solid fa-star-half-stroke fa-lg" style="color: #000000;"></i>
+                </div>
+                <p class="review-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore illo voluptates non, facere culpa veniam.</p>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="about">
+                <h3>About Us</h3>
+                <p>XNOR is your trusted source for selling cars. We are committed to providing the best online marketplace for car enthusiasts.</p>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <h3 class="links">Links</h3>
+                    <li class="footer-link-item">Home</li>
+                    <li class="footer-link-item">Explore cars</li>
+                    <li class="footer-link-item">News</li>
+                    <li class="footer-link-item">Contact us</li>
+                </ul>
+            </div>
+            <div class="address-box">
+                <h3 class=""location>Location</h3>
+                <p class="address">123 main street, cityname</p>
+                <p>Mail: <a class="mail" href="#">xnor5036@gmail.com</a></p>
+                <p class="mobile-num">Helpline: 135 448 9788</p>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright-container">
+            <p>&copy; 2015-2023 XNOR - India's #1 car selling company.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
